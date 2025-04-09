@@ -34,6 +34,7 @@ class CMSService {
           };
         }
       });
+      return response.data;
     } catch (exception) {
       console.log(exception);
       return {
