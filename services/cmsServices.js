@@ -1,5 +1,5 @@
 class CMSService {
-  baseURL = process.env.STRAPI_URL + "/api";
+  baseURL = process.env.RAILWAY_STRAPI_URL + "/api";
   endPoint = {
     getUsers: this.baseURL + "/user-details",
   };
